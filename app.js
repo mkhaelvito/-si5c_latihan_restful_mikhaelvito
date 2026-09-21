@@ -3,7 +3,7 @@
 	const PORT = 3000;
 	
 	app.get('/', (req, res) => {
-	  res.send('Server Express.js berjalan!');
+	  res.send('Server Express.js berjalan pada port 3000!');
 	});
 	
 	app.listen(PORT, () => {
